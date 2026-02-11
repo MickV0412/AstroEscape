@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://yfef8bc6xubf"]
+
+[ext_resource type="Texture2D" uid="uid://dwcanrfsgvwns" path="res://assets/achtergrond game png.png" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://cnv257bsjvih1" path="res://scenes/player.tscn" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://cg2og3dsvnh5m" path="res://Robot/robot_left.png" id="3_choun"]
+[ext_resource type="Texture2D" uid="uid://b7sldfttjp3lj" path="res://Robot/robot_right.png" id="4_ya4ey"]
+[ext_resource type="Script" uid="uid://bih3557df12y1" path="res://scripts/meteor_spawner.gd" id="5_tefeu"]
+[ext_resource type="PackedScene" uid="uid://c7qs4lsy5vl18" path="res://meteor.tscn" id="6_o6xl0"]
+[ext_resource type="Script" uid="uid://q3ch6aekdmne" path="res://timer_ui.gd" id="7_o6xl0"]
+[ext_resource type="Script" uid="uid://cqgi1vj4p38ml" path="res://scripts/game_manager (1).gd" id="8_85g3d"]
+[ext_resource type="Script" uid="uid://c7pnu3kvkcxgw" path="res://scripts/countdown_label.gd" id="9_choun"]
+[ext_resource type="Script" uid="uid://df3nhpsps5lni" path="res://scripts/leaderboard_ui.gd" id="10_choun"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wfyh"]
+size = Vector2(2022.5, 103)
+
+[node name="Main" type="Node2D" unique_id=2093279796]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=639976751]
+position = Vector2(925.8914, 540)
+scale = Vector2(0.5654171, 0.43553427)
+texture = ExtResource("1_0wfyh")
+offset = Vector2(120, 0)
+
+[node name="Ground" type="StaticBody2D" parent="." unique_id=726652509]
+position = Vector2(960, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=546125127]
+position = Vector2(48.25, 696)
+shape = SubResource("RectangleShape2D_0wfyh")
+
+[node name="Player" parent="." unique_id=586584309 groups=["player"] instance=ExtResource("1_o5qli")]
+position = Vector2(812, 206)
+sprite_right = ExtResource("3_choun")
+sprite_left = ExtResource("4_ya4ey")
+
+[node name="MeteorSpawner" type="Node2D" parent="." unique_id=100225874]
+script = ExtResource("5_tefeu")
+meteor_scene = ExtResource("6_o6xl0")
+max_meteor_speed = 1000.0
+speed_increase_rate = 50.0
+
+[node name="Timer" type="Label" parent="." unique_id=1823925217 groups=["timer"]]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 1073.0
+offset_top = 24.0
+offset_right = 1266.0
+offset_bottom = 92.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+script = ExtResource("7_o6xl0")
+
+[node name="GameManager" type="Node" parent="." unique_id=1196552021]
+script = ExtResource("8_85g3d")
+
+[node name="CountdownLabel" type="Label" parent="." unique_id=2099426812 groups=["countdown"]]
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 42.0
+offset_bottom = 26.0
+horizontal_alignment = 1
+script = ExtResource("9_choun")
+
+[node name="Leaderboard" type="Control" parent="." unique_id=115159719 groups=["leaderboard"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("10_choun")
