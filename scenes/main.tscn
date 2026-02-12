@@ -10,9 +10,10 @@
 [ext_resource type="Script" uid="uid://cqgi1vj4p38ml" path="res://scripts/game_manager (1).gd" id="8_85g3d"]
 [ext_resource type="Script" uid="uid://c7pnu3kvkcxgw" path="res://scripts/countdown_label.gd" id="9_choun"]
 [ext_resource type="Script" uid="uid://df3nhpsps5lni" path="res://scripts/leaderboard_ui.gd" id="10_choun"]
+[ext_resource type="AudioStream" uid="uid://bylxetndwvb4k" path="res://Minigame 1.mp3" id="11_ya4ey"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0wfyh"]
-size = Vector2(2022.5, 103)
+size = Vector2(2022.5, 85.5)
 
 [node name="Main" type="Node2D" unique_id=2093279796]
 
@@ -26,7 +27,7 @@ offset = Vector2(120, 0)
 position = Vector2(960, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=546125127]
-position = Vector2(48.25, 696)
+position = Vector2(48.25, 704.75)
 shape = SubResource("RectangleShape2D_0wfyh")
 
 [node name="Player" parent="." unique_id=586584309 groups=["player"] instance=ExtResource("1_o5qli")]
@@ -52,6 +53,7 @@ grow_horizontal = 2
 theme_override_font_sizes/font_size = 32
 horizontal_alignment = 1
 script = ExtResource("7_o6xl0")
+metadata/_edit_use_anchors_ = true
 
 [node name="GameManager" type="Node" parent="." unique_id=1196552021]
 script = ExtResource("8_85g3d")
@@ -63,6 +65,7 @@ offset_right = 42.0
 offset_bottom = 26.0
 horizontal_alignment = 1
 script = ExtResource("9_choun")
+metadata/_edit_use_anchors_ = true
 
 [node name="Leaderboard" type="Control" parent="." unique_id=115159719 groups=["leaderboard"]]
 layout_mode = 3
@@ -72,3 +75,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("10_choun")
+metadata/_edit_use_anchors_ = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1383243372]
+stream = ExtResource("11_ya4ey")
+autoplay = true

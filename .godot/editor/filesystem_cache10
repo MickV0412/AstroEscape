@@ -1,15 +1,15 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770719651
+::res://::1770901769
+meteor.tscn::PackedScene::7053059708455943497::1770810120::0::1::::<><><>0<>0<><>::uid://dqybe4agt8d6j::::res://scripts/meteor.gd<>uid://c1gy4g1cw55pl::::res://Metor.png
 Metor.png::CompressedTexture2D::6611646919775540113::1770717882::1770718106::1::::<><><>0<>0<>253f01d2d3e917616a45d463f2b5bff7<>res://.godot/imported/Metor.png-320c4535f789f0c4cc4ffaa76c939517.ctex::
-README.md::TextFile::-1::1770639367::0::1::::<><><>0<>0<><>::
-meteor.tscn::PackedScene::7053059708455943497::1770719247::0::1::::<><><>0<>0<><>::uid://dqybe4agt8d6j::::res://scripts/meteor.gd<>uid://c1gy4g1cw55pl::::res://Metor.png
+Minigame 1.mp3::AudioStreamMP3::4095065738502427408::1770901242::1770901249::1::::<><><>0<>0<>b27a5fc83de4cd20e3d20ff47f55a3bf<>res://.godot/imported/Minigame 1.mp3-5cadeff0dfa294626e6b18c25a4f2c0a.mp3str::
+README.md::TextFile::-1::1770803098::0::1::::<><><>0<>0<><>::
 timer_ui.gd::GDScript::1180959638284150822::1770719651::0::1::::<>Label<><>0<>0<><>::
-::res://Alien/::1770639650
+::res://Alien/::1770804062
 AlienAchter.png::CompressedTexture2D::8336572860613242060::1770639584::1770639650::1::::<><><>0<>0<>956c57896d26b95c6b1af7155f635dba<>res://.godot/imported/AlienAchter.png-72dd7ded4771097dfe827c94e9d01375.ctex::
 AlienArm.png::CompressedTexture2D::2443703573149049921::1770639584::1770639648::1::::<><><>0<>0<>dd93ceda80169613c8b448c7c312b8b3<>res://.godot/imported/AlienArm.png-4add9fabe028b987f4c889755734ffa5.ctex::
 AlienLinks.png::CompressedTexture2D::3007468862585417774::1770639584::1770639649::1::::<><><>0<>0<>20f98d5d86595bbe9e31ce439a1ed02b<>res://.godot/imported/AlienLinks.png-f4fa11fb54d69ca49f8acdd40d86ff22.ctex::
 AlienRechts.png::CompressedTexture2D::4812243051641083321::1770639584::1770639649::1::::<><><>0<>0<>33ddac61c9a9e6069dc08819af2207b6<>res://.godot/imported/AlienRechts.png-48a42f11207dd69d5d1ce0b804dc5821.ctex::
-AlienVoor.png::CompressedTexture2D::7308907657292541039::1770639584::1770639648::1::::<><><>0<>0<>e3fa560fda9dee5efa7443e5c138fd51<>res://.godot/imported/AlienVoor.png-bf301e35be2c6edad5bb2bc9744f42c3.ctex::
 ::res://assets/::1770642682
 achtergrond game png.png::CompressedTexture2D::8707569483392580268::1770642661::1770642682::1::::<><><>0<>0<>0a85aec5600e80a1155ec651f4d3fe59<>res://.godot/imported/achtergrond game png.png-38a3aef625c88cac0b1b76667a7c203f.ctex::
 ::res://Astronaut/::1770730090
@@ -18,19 +18,19 @@ astronaut_right.png::CompressedTexture2D::618648510469290841::1770730084::177073
 ::res://Laika/::1770730192
 laika_left.png::CompressedTexture2D::4855439713134616083::1770730188::1770730192::1::::<><><>0<>0<>34cc5913b177b2a51ffedef7635bc9fb<>res://.godot/imported/laika_left.png-d2d5bee9ad9eb5409b55c8f461d1dad5.ctex::
 laika_right.png::CompressedTexture2D::3005607528065066234::1770730188::1770730192::1::::<><><>0<>0<>840615addc10d76b4d1c14e922dd2ac4<>res://.godot/imported/laika_right.png-3754370d726f2f616340bdf830ec3c07.ctex::
-::res://Robot/::1770798366
+::res://Robot/::1770901249
 robot_left.png::CompressedTexture2D::5250574857370808284::1770798366::1770798370::1::::<><><>0<>0<>ec39f6e7b59caa0312f162468741cbf0<>res://.godot/imported/robot_left.png-17ce0b44fed6b673b7018488d900acd1.ctex::
 robot_right.png::CompressedTexture2D::4670296016829316119::1770798366::1770798370::1::::<><><>0<>0<>af8e2aef595ca1bc5955b4918e5b92ac<>res://.godot/imported/robot_right.png-bb5e71228f9dac57af866ecae6559c1a.ctex::
-::res://scenes/::1770798196
-main.tscn::PackedScene::1695107667972250015::1770730018::0::1::::<><><>0<>0<><>::uid://dwcanrfsgvwns::::res://assets/achtergrond game png.png<>uid://cnv257bsjvih1::::res://scenes/player.tscn<>uid://cm0ikhdu47k0k::::res://Robot/robot zijkant rechts.png<>uid://bu7alvb0leg7i::::res://Robot/robot zijkant links.png<>uid://bih3557df12y1::::res://scripts/meteor_spawner.gd<>uid://c7qs4lsy5vl18::::res://meteor.tscn<>uid://q3ch6aekdmne::::res://timer_ui.gd<>uid://cqgi1vj4p38ml::::res://scripts/game_manager (1).gd<>uid://c7pnu3kvkcxgw::::res://scripts/countdown_label.gd<>uid://df3nhpsps5lni::::res://scripts/leaderboard_ui.gd
-player.tscn::PackedScene::5730342883260428384::1770798196::0::1::::<><><>0<>0<><>::uid://bxo3c886r7aj5::::res://scripts/player.gd<>uid://cm0ikhdu47k0k::::res://Robot/robot zijkant rechts.png
-::res://scripts/::1770798196
-countdown_label.gd::GDScript::7050676553967657870::1770720849::0::1::::<>Label<><>0<>0<><>::
-game_manager (1).gd::GDScript::5908782416935142103::1770798196::0::1::::<>Node<><>0<>0<><>::
-leaderboard_ui.gd::GDScript::7568811484209946462::1770797926::0::1::::<>Control<><>0<>0<><>::
-meteor.gd::GDScript::8331897999030100651::1770719485::0::1::::<>Area2D<><>0<>0<><>::
-meteor_spawner.gd::GDScript::2964137351968673974::1770724726::0::1::::<>Node2D<><>0<>0<><>::
+::res://scenes/::1770901270
+main.tscn::PackedScene::1695107667972250015::1770901270::0::1::::<><><>0<>0<><>::uid://dwcanrfsgvwns::::res://assets/achtergrond game png.png<>uid://cnv257bsjvih1::::res://scenes/player.tscn<>uid://cg2og3dsvnh5m::::res://Robot/robot_left.png<>uid://b7sldfttjp3lj::::res://Robot/robot_right.png<>uid://bih3557df12y1::::res://scripts/meteor_spawner.gd<>uid://c7qs4lsy5vl18::::res://meteor.tscn<>uid://q3ch6aekdmne::::res://timer_ui.gd<>uid://cqgi1vj4p38ml::::res://scripts/game_manager (1).gd<>uid://c7pnu3kvkcxgw::::res://scripts/countdown_label.gd<>uid://df3nhpsps5lni::::res://scripts/leaderboard_ui.gd<>uid://bylxetndwvb4k::::res://Minigame 1.mp3
+player.tscn::PackedScene::5730342883260428384::1770798386::0::1::::<><><>0<>0<><>::uid://bxo3c886r7aj5::::res://scripts/player.gd<>res://Robot/robot zijkant rechts.png
+::res://scripts/::1770802618
+countdown_label.gd::GDScript::7050676553967657870::1770800350::0::1::::<>Label<><>0<>0<><>::
+game_manager (1).gd::GDScript::5908782416935142103::1770801592::0::1::::<>Node<><>0<>0<><>::
+leaderboard_ui.gd::GDScript::7568811484209946462::1770801571::0::1::::<>Control<><>0<>0<><>::
+meteor.gd::GDScript::8331897999030100651::1770802032::0::1::::<>Area2D<><>0<>0<><>::
+meteor_spawner.gd::GDScript::2964137351968673974::1770802618::0::1::::<>Node2D<><>0<>0<><>::
 player (1).gd::GDScript::3305773151785775203::1770720814::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.gd::GDScript::4031370808991527936::1770729904::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player_updated.gd::GDScript::4379301740858009136::1770718539::0::1::::<>CharacterBody2D<><>0<>0<><>::
-timer_ui (1).gd::GDScript::187495356143572450::1770720851::0::1::::<>Label<><>0<>0<><>::
+timer_ui (1).gd::GDScript::187495356143572450::1770800327::0::1::::<>Label<><>0<>0<><>::

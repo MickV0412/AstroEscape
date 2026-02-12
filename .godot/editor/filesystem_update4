@@ -1,10 +1,1 @@
 res://scenes/main.tscn
-res://scripts/player.gd
-res://meteor.tscn
-res://scripts/meteor_spawner.gd
-res://scripts/meteor.gd
-res://scenes/player.tscn
-res://scripts/game_manager (1).gd
-res://scripts/leaderboard_ui.gd
-res://scripts/timer_ui (1).gd
-res://scripts/countdown_label.gd
